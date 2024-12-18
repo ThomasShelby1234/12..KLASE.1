@@ -1,90 +1,90 @@
-/* Krāsu palete: https://www.color-hex.com/color-palette/1053819 */
-.wrapper {
-  width: 70%;
-  margin-left: auto;
-  margin-right: auto;
-  background: #eeeeee; /* Gaišā krāsa */
+
+
+/*https://www.color-hex.com/color-palette/1053772.container */
+body {
+  background-color: #487de7;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  margin: 0; 
 }
 
-body {
-  width: 70%;
-  margin: 0 auto;
-  background-color: #eeeeee; /* Gaišā krāsa */
+.container {
+  width: 70%; 
+  background-color: #faeb36; 
+  padding: 20px; 
+  box-shadow: 10px 10px 100px rgba(0, 0, 0, 0.1);
 }
 
 h1 {
-  text-align: center;
-  background: #eeeeee; /* Virsrakstiem */
-  padding: 5px;
-  font-weight: bold; /* Treknraksts */
+  color: #e81416; 
+  font-weight: bold; 
+  text-align: center; 
 }
 
-h2 {
-  color: #750000; /* Tumšāka krāsa */
+h2, h3 {
+  color: #79c314; 
+  text-align: center; 
 }
 
-ul {
-  text-align: center;
-  padding: 0px;
-}
-
-li {
-  display: inline-block;
-}
-
-.block {
-  display: inline-block;
-  background: #750000; /* Tumšāka krāsa */
-  width: 100px;
-  height: 100px;
-  border: 1px solid #750000; /* Tumšāka krāsa */
-  text-align: center;
-  margin: 5px;
-  font-size: 45px;
-  vertical-align: top;
-}
-
-.block div {
-  display: none;
-}
-
-table {
-  width: 100%;
-}
-
-table th {
-  font-weight: bold; /* Treknraksts */
-  color: #FF5733; /* Mainīta krāsa */
-}
-
-#jauns {
-  background-color: #345f50; /* Tumšāka krāsa */
-}
 
 label {
-  font-weight: bold; /* Treknraksts */
-  color: #750000; /* Tumšāka krāsa */
+  font-weight: bold; 
+  color: #ffa500; 
 }
 
-input[type="number"], input[type="email"], select {
-  background-color: #345f50; /* Tumšāka krāsa */
-  border: 1px solid #000920;
-  padding: 5px;
+input[type="text"], input[type="number"], input[type="date"] {
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  padding: 10px; 
+  margin: 5px 0;
+  width: 100%; 
 }
+
 
 button {
-  background-color: #eeeeee; /* Mainīta krāsa pogai */
-  border-radius: 10px; /* Noapaļot */
-  padding: 10px;
+  background-color: #e81416; 
   color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px; 
   cursor: pointer;
+  transition: background-color 0.3s;
+  width: 100%; 
 }
 
 button:hover {
-  background-color: #FF5733; /* Krāsa uzbraucot ar peli */
+  background-color: #ffa500; 
 }
 
-.temp-text {
-  font-style: italic; /* Slīpraksts */
-  color: #FF5733; /* Mainīta krāsa */
+
+table {
+  width: 100%; 
+  margin-top: 20px; 
+}
+
+th {
+  background-color: #e81416; 
+  color: white; 
+  font-weight: bold; 
+  padding: 10px;
+}
+
+td {
+  background-color: #faeb36; 
+  color: #2c3e50; 
+  padding: 10px; 
+}
+
+
+#avgTemp {
+  font-size: 1.2em;
+  color: #79c314; 
+  font-weight: bold; 
+  text-align: center; 
+}
+
+
+p {
+  margin-top: 10px;
 }
