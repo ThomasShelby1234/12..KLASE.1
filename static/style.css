@@ -1,0 +1,41 @@
+/* Krāsu palete: https://www.color-hex.com/color-palettes/ */
+body {
+    background-color: #000000; /* Gaisākā krāsa */
+    margin: 0;
+    padding: 0;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div {
+    background-color: #ffffff; /* Tumšākā krāsa */
+}
+
+h1 {
+    font-weight: bold;
+    color: #FF5733; /* Piemēram, krāsa */
+}
+
+button {
+    background-color: #FFC300; /* Poga krāsa */
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: #FF5733; /* Krāsa uz peles uzbrauciena */
+}
+
+th {
+    font-weight: bold;
+    color: #900C3F; /* Piemēram, krāsa */
+}
+
+h2 {
+    color: red;
+}
+
+#avgTemp {
+    font-style: italic;
+    color: #581845; /* Piemēram, krāsa */
+}
